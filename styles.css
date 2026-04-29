@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #1A1A1A;
+    color: #F5F5F5;
+}
+
+/* Header */
+header {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #C9A24D;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #C9A24D;
+}
+
+/* Nav */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #C9A24D;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+/* Hero */
+.hero img {
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Products */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+article {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* Buttons */
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #C9A24D;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+a:hover {
+    background-color: #a8833c;
+}
+
+/* Social */
+.social {
+    list-style: none;
+    padding: 0;
+}
+
+.social li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
