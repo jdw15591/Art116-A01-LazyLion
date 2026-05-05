@@ -1,3 +1,4 @@
+/* RESET */
 body {
     margin: 0;
     font-family: 'Inter', Arial, sans-serif;
@@ -5,7 +6,7 @@ body {
     color: #F5F5F5;
 }
 
-/* Header */
+/* HEADER */
 header {
     background-color: black;
     text-align: center;
@@ -23,7 +24,7 @@ h2 {
     color: #C9A24D;
 }
 
-/* Nav */
+/* NAVIGATION */
 nav ul {
     list-style: none;
     padding: 0;
@@ -44,20 +45,20 @@ nav a:hover {
     color: #C9A24D;
 }
 
-/* Sections */
+/* SECTIONS */
 section {
     padding: 40px 20px;
     text-align: center;
     border-bottom: 1px solid #333;
 }
 
-/* Hero */
+/* HERO IMAGE */
 .hero img {
-    max-width: 500px;
     width: 100%;
+    max-width: 500px;
 }
 
-/* Products */
+/* PRODUCTS */
 .products {
     display: flex;
     justify-content: center;
@@ -72,12 +73,13 @@ article {
     width: 250px;
 }
 
+/* IMAGES */
 img {
     width: 100%;
     border-radius: 6px;
 }
 
-/* Buttons */
+/* BUTTONS */
 a {
     display: inline-block;
     margin-top: 10px;
@@ -92,17 +94,7 @@ a:hover {
     background-color: #a8833c;
 }
 
-/* Social */
-.social {
-    list-style: none;
-    padding: 0;
-}
-
-.social li {
-    margin: 10px 0;
-}
-
-/* Footer */
+/* FOOTER */
 footer {
     background-color: black;
     text-align: center;
